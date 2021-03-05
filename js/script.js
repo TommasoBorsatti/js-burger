@@ -45,7 +45,7 @@ trigger.addEventListener("click",
         /*4b. Uso il metodo IndexOf per identificare l'indice del coupon usato all'interno dell'array con i coupon validi;
         Poi con il metodo slice rimuovo quell'elemento usando il relativo indice: così i coupon non potranno essere riusati.*/
 
-        var usedCouponIndex = listaCoupon.IndexOf(coupon.value) ;
+        var usedCouponIndex = listaCoupon.indexOf(coupon.value) ;
         listaCoupon.splice(usedCouponIndex, 1) ;
       }
 
@@ -53,6 +53,7 @@ trigger.addEventListener("click",
       Uso il metodo to fixed per arrotondare il valore a 2 cifre decimali.*/
 
       document.getElementById("sum").innerHTML = sum.toFixed(2) + "€" ;
+      console.log(listaCoupon) ;
 
     } else {
 
