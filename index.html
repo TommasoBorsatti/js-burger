@@ -8,24 +8,29 @@
   <!-- Link allo style -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Link allo style -->
-
+  <!-- Link al googlefont scelto -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+  <!-- Link al googlefont scelto -->
 
 </head>
 <body>
 
   <div class="wrapper">
+
     <header class="text-white">
       <h1 class="pd-40">Create Your Burger</h1>
+      <img class="header-pic" src="img/burger.png" alt="Immagine di un hamburger disegnato in un cerchio.">
     </header>
 
     <main>
-
       <section id="name-area" class="container">
+        <h2 class="pd-10">Il Mio Burger</h2>
         <input id="burger-name" type="text" placeholder="Name Your Burger">
       </section>
 
-      <section id="checkbox-area" class="container flex">
-
+      <section id="checkbox-area" class="container flex mg-10">
+        <h2 class="section-title">Ingredients</h2>
         <ul>
           <li>
             <img class="ingredient-pic" src="img/cheese.svg" alt="immagine ingrediente">
@@ -63,17 +68,20 @@
         </ul>
       </section>
 
-      <section id="coupon-area" class="container flex">
-        <input id="coupon-name" type="text" placeholder="Insert your Coupon here">
+      <section id="coupon-area" class="container flex mg-10">
+        <div class="box">
+          <label for="coupon-name">Discount Coupon</label>
+          <input id="coupon-name" type="text" placeholder="Insert your Coupon here"><span> for a 20% discount!</span>
+        </div>
       </section>
 
-      <section id="button-area" class="pd-20">
-        <button id="trigger" class="btn">CALCULATE</button>
+      <section id="button-area" class=" text-center mg-10">
+        <button id="trigger" class="btn mg-10">calculate</button>
       </section>
     </main>
 
-    <footer class="flex text-white pd-20">
-      <h2>TOTAL COST:</h2>
+    <footer class="flex text-white">
+      <h2>Your Price:</h2>
       <span id ="sum">4.50€</span>
     </footer>
 

@@ -1,5 +1,7 @@
 
-/*0. Qui definisco Variabili e Array */
+/*0. Qui definisco Variabili e Array - Un Alert avvisa sulle funzionalità del programma */
+
+alert("Benvenuto su YourBurger! Scegli la composizione del tuo Burger elencando gli ingredienti desiderati.")
 
 var trigger = document.getElementById("trigger") ;
 var burgerName = document.getElementById('burger-name') ;
