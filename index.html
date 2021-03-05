@@ -13,6 +13,75 @@
 </head>
 <body>
 
+  <div class="wrapper">
+    <header class="text-white">
+      <h1 class="pd-40">Create Your Burger</h1>
+    </header>
+
+    <main>
+
+      <section id="name-area" class="container">
+        <input id="burger-name" type="text" placeholder="Name Your Burger">
+      </section>
+
+      <section id="checkbox-area" class="container flex">
+
+        <ul>
+          <li>
+            <img class="ingredient-pic" src="img/cheese.svg" alt="immagine ingrediente">
+            <label for="cheese">Cheese</label>
+              <input id="cheese" class="check-input" type="checkbox" value="2"> <span>add</span>
+          </li>
+          <li>
+            <img class="ingredient-pic" src="img/tomato.svg" alt="immagine ingrediente">
+            <label for="tomato">Tomato</label>
+              <input id="tomato" class="check-input"type="checkbox" value="1.5"> <span>add</span>
+          </li>
+          <li>
+            <img class="ingredient-pic" src="img/mustard.svg" alt="immagine ingrediente">
+            <label for="mustard">Mustard</label>
+              <input id="mustard" class="check-input"type="checkbox" value="2"> <span>add</span>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <img class="ingredient-pic" src="img/eggs.svg" alt="immagine ingrediente">
+            <label for="eggs">Eggs</label>
+              <input id="eggs" class="check-input" type="checkbox" value="2"> <span>add</span>
+          </li>
+          <li>
+            <img class="ingredient-pic" src="img/lettuce.svg" alt="immagine ingrediente">
+            <label for="lettuce">Lettuce</label>
+              <input id="lettuce" class="check-input" type="checkbox" value="2"> <span>add</span>
+          </li>
+          <li>
+            <img class="ingredient-pic" src="img/ketchup.svg" alt="immagine ingrediente">
+            <label for="ketchup">Ketchup</label>
+              <input id="ketchup" class="check-input" type="checkbox" value="2"> <span>add</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="coupon-area" class="container flex">
+        <input id="coupon-name" type="text" placeholder="Insert your Coupon here">
+      </section>
+
+      <section id="button-area" class="pd-20">
+        <button id="trigger" class="btn">CALCULATE</button>
+      </section>
+    </main>
+
+    <footer class="flex text-white pd-20">
+      <h2>TOTAL COST:</h2>
+      <span id="sum">4.50€</span>
+    </footer>
+
+  </div>
+
+<!-- Link allo script js -->
 <script src="js/script.js" charset="utf-8"></script>
+<!-- Link allo script js -->
+
 </body>
 </html>

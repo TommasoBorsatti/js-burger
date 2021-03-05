@@ -6,5 +6,74 @@
 }
 
 body{
-  background-color: red
+  background-color: pink;
 }
+
+header{
+  background-color: orange;
+  height: 20vh
+}
+
+main{
+  background-color: white;
+  height: 70vh
+}
+
+footer{
+  background-color: red;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* MIX */
+
+.flex{
+  display: flex;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-white{
+  color: #fff;
+}
+
+.pd-40{
+  padding: 40px
+}
+
+.pd-20{
+  padding: 40px
+}
+
+/* ELEMENTS */
+
+.wrapper{
+  width: 50%
+}
+
+.container{
+  padding: 20px;
+}
+
+.ingredient-pic{
+  width: 40px;
+  vertical-align: middle;
+}
+
+/* TYPO */
+
+ul{
+  list-style: none;
+  margin: 10px
+}
+
+li{
+
+}
+
+
+
+/* MAIN */
